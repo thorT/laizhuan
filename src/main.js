@@ -15,6 +15,8 @@ import 'common/stylus/index.styl'
 //解决300毫秒延迟
 fastclick.attach(document.body);
 
+Vue.use(ElementUI, { size: 'small' });
+
 //引入elementUI
 Vue.use(ElementUI);
 
